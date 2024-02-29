@@ -38,8 +38,8 @@ const Main = () => {
                     </button>
                 </div>
 
-                <div className='relative w-[750px] h-[750px] mt-[18px] ml-[-32px]'>
-                    <img className='w-[750px] h-[750px]'
+                <div className='relative w-[750px] h-[750px] mt-[18px] '>
+                    <img className='  w-[750px] h-[750px]'
                         src='https://s3-alpha-sig.figma.com/img/42d8/5481/dadd67ceaced54b792ba841859f8dc2d?Expires=1710115200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=E9ggrU-tjVdwm-b66XAs5za6HUJbxPSkAX9jENW66agI7qiWoAZTMX~aZLowb~zGFUQfIxaQSlU7123VYllRBy-cvwzy5LeWD2RQg-GzV2pB680lkYWQkhoOwMY8N-Y0oJ7A1UxvxDpAO1aFQlLQarPuVQ4m9twf3pSlu4cakjBz1Pm5P9na-eaC46ba8BTvQpenTxzqRDnPlfEZT2pql6EpYApya5tDbLc5PbGvBPRAgCawreu30D7-pKDQwfmfPGrROY7DlcOLoaQgZvP5gAWDN-TE06J2Vh3aScHTOGH50JLHkQeHh1saAnwMNXczMvP5AAM3wc4ZgbhOAmEQ~g__'>
                     </img>
                 </div>
