@@ -1,8 +1,9 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
-import { faHome, faWallet, faUser, faHeart, faComment } from '@fortawesome/free-solid-svg-icons';
-
+import { faHome, faPlus, faWallet, faUser, faHeart, faComment } from '@fortawesome/free-solid-svg-icons';
+import image1 from '../Images/image1.png'
+import image from '../Images/image.png'
 const AppDetails = () => {
     return (
         <>
@@ -114,7 +115,6 @@ const AppDetails = () => {
                             />
                         </div>
 
-
                         <div
                             className="relative inline-block mt-[17px] ml-[30px]"
                             style={{
@@ -137,8 +137,6 @@ const AppDetails = () => {
                                 }}
                             />
                         </div>
-
-
                     </div>
 
                     <div className='flex mt-[14px] '>
@@ -232,9 +230,6 @@ const AppDetails = () => {
                             </p>
                         </div>
 
-
-
-
                     </div>
 
                     <div className="relative w-[257px] h-[90px] mt-[40px] ml-[28px] bg-[#FCFCFC] rounded-[20px] bg-white shadow-md"
@@ -285,10 +280,6 @@ const AppDetails = () => {
                         <FontAwesomeIcon icon={faUser} className='text-white w-[18px] h-[18px] ml-[45px] mt-[22px]' />
 
                     </div>
-
-
-
-
 
                 </div>
 
@@ -350,11 +341,19 @@ const AppDetails = () => {
                     <div className=' w-[30px] h-[30px] bg-[#EDEDED] ml-[244px] mt-[-30px] rounded-[25px]'>
                         <FontAwesomeIcon icon={faHeart} className="bg-transparant m-[7px] w-4 h-4" />
                     </div>
-                    <button class=" z-10 w-[165px] h-[50px] ml-[295px]  mt-[-295px] rounded-tl-[20px] rounded-tr-[20px] rounded-br-[20px] rounded-bl-[0px] bg-black shadow-md text-white"
+                    <button class="relative  z-10 w-[165px] h-[50px] ml-[295px]  mt-[-295px] rounded-tl-[20px] rounded-tr-[20px] rounded-br-[20px] rounded-bl-[0px] bg-black shadow-md text-white"
                         style={{
                             boxShadow: '10px 10px 15px 0px rgba(0, 0, 0, 0.4)'
-                        }}
-                    >Add To Cart </button>
+                        }}>
+                        <div className='relative flex'>
+                            <p className='w-[82px] h-[20px] ml-[24px]'>
+                                Add To Cart
+                            </p>
+                            <div className=' w-[26px] h-[26px] bg-[#EDEDED] ml-[9px] rounded-[25px]'>
+                                <FontAwesomeIcon icon={faPlus} className='mt-[-185px] text-black' />
+                            </div>
+                        </div>
+                    </button>
 
                 </div>
 
@@ -387,6 +386,11 @@ const AppDetails = () => {
                         </p>
                     </div>
 
+                    <div className='flex mt-[44px]'>
+                        <img src={image1} className='w-[101px] h-[30px]'/>
+                        <img src={image} className='w-[101px] h-[30px] ml-[10px]'/>
+
+                    </div>
                 </div>
 
 

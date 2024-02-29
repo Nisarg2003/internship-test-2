@@ -1,13 +1,13 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
-import { faHome, faWallet, faUser, faHeart , faComment } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faWallet, faUser, faHeart, faComment } from '@fortawesome/free-solid-svg-icons';
 
 
 const Items1 = () => {
   return (
     <>
-    <div className='flex mt-[60px] '>
+      <div className='flex mt-[60px] '>
         <div className='ml-[100px]'>
 
           <img className=' relative w-[314px] h-[314px] z-10'
@@ -24,16 +24,22 @@ const Items1 = () => {
               boxShadow: '5px 5px 30px 0px #00000026',
             }}>
           </div>
-          <p className='w-[129px] h-[30px] mt-[-139px] ml-[28px]' style={{
-            fontFamily: 'Poppins',
-            fontSize: '20px',
-            fontWeight: 700,
-            lineHeight: '30px',
-            letterSpacing: '0em',
-          }}>
-            Crab Ramen
-          </p>
-          <p className='w-[99px] h-[18px] mt-[18px] ml-[28px]' style={{
+          <div className='flex mt-[-139px]'>
+
+            <p className='w-[129px] h-[30px]  ml-[28px]' style={{
+              fontFamily: 'Poppins',
+              fontSize: '20px',
+              fontWeight: 700,
+              lineHeight: '30px',
+              letterSpacing: '0em',
+            }}>
+              Crab Ramen
+            </p>
+            <div className=' w-[30px] h-[30px] bg-[#EDEDED] ml-[90px] w-[45px] h-[45px] rounded-[25px]'>
+              <FontAwesomeIcon icon={faHeart} className="bg-transparant  m-[11px] w-[21px] h-[24.5px]" />
+            </div>
+          </div>
+          <p className='w-[105px] h-[18px] mt-[5px] ml-[28px]' style={{
             fontFamily: 'Poppins',
             fontSize: '12px',
             fontWeight: 500,
@@ -56,7 +62,7 @@ const Items1 = () => {
               borderRadius: '15px 15px 40px 13px',
             }}
           >
-            <FontAwesomeIcon icon={faShoppingCart} className='text-white' />
+            <FontAwesomeIcon icon={faShoppingCart} className='text-white w-[34.5px] h-[34.5px] ' />
           </div>
         </div>
 
@@ -76,16 +82,22 @@ const Items1 = () => {
               boxShadow: '5px 5px 30px 0px #00000026',
             }}>
           </div>
-          <p className='w-[139px] h-[30px] mt-[-139px] ml-[28px]' style={{
-            fontFamily: 'Poppins',
-            fontSize: '20px',
-            fontWeight: 700,
-            lineHeight: '30px',
-            letterSpacing: '0em',
-          }}>
-            Chicken Slice
-          </p>
-          <p className='w-[99px] h-[18px] mt-[18px] ml-[28px]' style={{
+          <div className='flex mt-[-139px]'>
+
+            <p className='w-[139px] h-[30px]  ml-[28px]' style={{
+              fontFamily: 'Poppins',
+              fontSize: '20px',
+              fontWeight: 700,
+              lineHeight: '30px',
+              letterSpacing: '0em',
+            }}>
+              Chicken Slice
+            </p>
+            <div className=' w-[30px] h-[30px] bg-[#EDEDED] ml-[90px] w-[45px] h-[45px] rounded-[25px]'>
+              <FontAwesomeIcon icon={faHeart} className="bg-transparant  m-[11px] w-[21px] h-[24.5px]" />
+            </div>
+          </div>
+          <p className='w-[99px] h-[18px] mt-[5px] ml-[28px]' style={{
             fontFamily: 'Poppins',
             fontSize: '12px',
             fontWeight: 500,
@@ -108,7 +120,7 @@ const Items1 = () => {
               borderRadius: '15px 15px 40px 13px',
             }}
           >
-            <FontAwesomeIcon icon={faShoppingCart} className='text-white' />
+            <FontAwesomeIcon icon={faShoppingCart} className='w-[34.5px] h-[34.5px] text-white' />
           </div>
         </div>
 
@@ -138,7 +150,7 @@ const Items1 = () => {
           </p>
         </div>
       </div>
-</>
+    </>
   )
 }
 

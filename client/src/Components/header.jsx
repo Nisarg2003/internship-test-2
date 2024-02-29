@@ -30,12 +30,12 @@ const Header = () => {
                     Lorem ipsum
                 </p>
             </div>
-            <div className='mt-[31px] ml-[1069px] relative z-10 bg-black w-[67px] h-[75px] flex items-center justify-center'
+            <div className=' mt-[31px] ml-[1069px] relative z-10 bg-black w-[67px] h-[75px] flex items-center justify-center'
                 style={{
                     borderRadius: '15px 15px 40px 13px',
                 }}
             >
-                <FontAwesomeIcon icon={faShoppingCart} className='text-white h-[38px] w-[39px]' />
+                <FontAwesomeIcon icon={faShoppingCart} className=' relative text-white h-[38px] w-[39px]' />
             </div>
         </div>
 

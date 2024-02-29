@@ -16,8 +16,8 @@ const Main = () => {
                         letterSpacing: '0em',
                         textAlign: 'left',
                     }}>
-                        Delicious<br />
-                        Food is Waiting<br />
+                        Delicious <br/>
+                        Food is Waiting <br/>
                         For You
                     </p>
 
@@ -32,8 +32,8 @@ const Main = () => {
                             boxShadow: '10px 10px 15px 0px #00000040',
                         }}
                     >
-                        <p className="text-white w-[188px] h-[31px] font-poppins text-xl font-bold ml-[44px] mt-[-5px]">View Menu 
-                        <FontAwesomeIcon icon={faArrowRight} className="text-white ml-[50px] mt-[-5px]  w-[30px] h-[30px]" />
+                        <p className="relative text-white w-[188px] h-[31px] font-poppins text-xl font-bold ml-[44px] mt-[-5px]">View Menu 
+                        <FontAwesomeIcon icon={faArrowRight} className="relative text-white ml-[50px] mt-[-5px]  w-[30px] h-[30px]" />
                         </p>
                     </button>
                 </div>
@@ -45,7 +45,7 @@ const Main = () => {
                 </div>
             </div>
 
-            <div className='flex ml-[100px] mt-[-163px]'>
+            <div className=' flex ml-[100px] mt-[-163px]'>
 
                 <div
                     className="relative inline-block mt-4"
